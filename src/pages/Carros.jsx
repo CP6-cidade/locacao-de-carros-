@@ -2,8 +2,8 @@ import CarrosCard from "../components/CarrosCard";
 
 import bmw from "../assets/bmw m4.jpeg";
 import ferrari from "../assets/Ferrari.jpeg";
+import lamborghini from "../assets/lambo.jpeg";
 import porsche from "../assets/porsche.jpeg";
-import lamborghini from "../assets/lamborghini.jpeg";
 
 function Carros() {
   const carros = [
@@ -23,17 +23,17 @@ function Carros() {
     },
     {
       id: 3,
-      nome: "Porsche 911 Carrera",
-      marca: "Porsche",
-      preco: 2800,
-      imagem: porsche
-    },
-    {
-      id: 4,
       nome: "Lamborghini Huracán",
       marca: "Lamborghini",
       preco: 6000,
       imagem: lamborghini
+    },
+    {
+      id: 4,
+      nome: "Porsche 911 Carrera",
+      marca: "Porsche",
+      preco: 2800,
+      imagem: porsche
     }
   ];
 
