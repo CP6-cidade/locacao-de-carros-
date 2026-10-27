@@ -1,11 +1,15 @@
-import React from 'react'
+import bmw from "../assets/bmw.jpg";
+import CarrosCard from "../components/CarrosCard";
 
-const CarrosCard = () => {
+function Carros() {
   return (
-    <div>
-      
-    </div>
-  )
+    <CarrosCard
+      nome="BMW M4"
+      marca="BMW"
+      preco={1500}
+      imagem={bmw}
+    />
+  );
 }
 
-export default CarrosCard
+export default Carros;
