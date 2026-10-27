@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contato from "./pages/Contato";
 import Login from "./pages/Login";
+import Error from "./pages/Error";
 
 import Home from "./pages/Home";
 import Carros from "./pages/Carros";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/carros" element={<Carros />} />
             <Route path="/contato" element={<Contato />} />
             <Route path="/login" element={<Login />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </div>
 
